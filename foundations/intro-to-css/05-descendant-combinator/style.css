@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+/* instructions
+* Only the `p` elements that are descendants of the `div` element should have a yellow background, red text, a font size of 20px, and center aligned. */
+ 
+/* method 1 */
+/* div p{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* method 2 */
+/* .container p
+{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+
+} */
+
+/* method 3 */
+div .text
+{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+
+}
