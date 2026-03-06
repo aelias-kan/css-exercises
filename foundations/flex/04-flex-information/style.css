@@ -1,3 +1,8 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -23,4 +28,32 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.main
+{
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.container
+{
+  /* border: 5px solid red; */
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 52px;
+}
+.container div
+{
+  flex-basis: 200px;
+  text-align: center;
+}
+
+.container img
+{
+  flex-basis: 200px;
 }
